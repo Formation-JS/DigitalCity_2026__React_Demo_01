@@ -40,9 +40,11 @@ function PeopleTableRow({ person }: PeopleTableRowProps) {
 function PeopleTableHead() {
     return (
         <thead>
-            <th>Prénom</th>
-            <th>Nom</th>
-            <th>Date de naissance</th>
+            <tr>
+                <th>Prénom</th>
+                <th>Nom</th>
+                <th>Date de naissance</th>
+            </tr>
         </thead>
     )
 }
