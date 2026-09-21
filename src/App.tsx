@@ -1,5 +1,6 @@
 import type { Person } from './@types/people'
 import './App.css'
+import Counter from './components/Counter/Counter'
 import PeopleTable from './components/PeopleTable/PeopleTable'
 import Welcome from './components/Welcome/Welcome'
 
@@ -17,8 +18,11 @@ function App() {
       <h1>Demo 01</h1>
       <Welcome firstname='Della' lastname='Duck' />
 
-      <h2>Liste des personnes</h2>
-      <PeopleTable people={people} />
+      {/* <h2>Liste des personnes</h2>
+      <PeopleTable people={people} /> */}
+
+      <h2>Exo 01</h2>
+      <Counter />
     </>
   )
 }
