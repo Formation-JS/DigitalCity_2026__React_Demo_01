@@ -1,0 +1,14 @@
+
+.people-table, .people-table td, .people-table th {
+    border : 0.1ch solid black;
+    border-collapse: collapse;
+}
+
+.people-row {
+    color: snow;
+    background-color: yellowgreen;
+}
+
+.color-pink {
+    background-color: fuchsia;
+}
